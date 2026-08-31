@@ -1,0 +1,136 @@
+/* 
+   1. PALETA DE COLORES (HEX)
+ */
+:root {
+   --color-primario: #0f2263;
+   /* Azul oscuro */
+   --color-secundario: #f4f6fa;
+   /* Fondo gris claro */
+   --color-acento: #af2222;
+   /* Rojo acento */
+   --color-texto: #1f2937;
+   /* Texto principal */
+   --color-blanco: #ffffff;
+}
+
+/* 
+   2. ESTILOS GENERALES Y TIPOGRAIA BASE
+*/
+body {
+   margin: 0;
+   background-color: var(--color-secundario);
+   color: var(--color-texto);
+   font-family: 'Roboto', Arial, sans-serif;
+   font-size: 1rem;
+   line-height: 1.6;
+}
+
+/*
+   ENCABEZADO Y MENU DE NAVEGACION
+*/
+header {
+   background-color: var(--color-primario);
+   color: var(--color-blanco);
+   padding: 1.5rem 2rem;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 1rem 0 0 0;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+}
+
+nav a {
+   color: var(--color-blanco);
+   text-decoration: none;
+   font-weight: 600;
+}
+
+nav a:hover {
+   color: var(--color-acento);
+}
+
+/* 
+    JRARQUIA TIPOGRAFICA
+*/
+h1 {
+   font-size: 2.4rem;
+   font-weight: 800;
+   color: var(--color-primario);
+   margin-top: 0;
+   margin-bottom: 1rem;
+}
+
+h2 {
+   font-size: 1.5rem;
+   font-weight: 600;
+   color: var(--color-primario);
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+}
+
+p {
+   font-size: 1rem;
+   font-weight: 400;
+   margin-top: 0;
+   margin-bottom: 1rem;
+}
+
+/* 
+   CONTENEDORES Y ESTRUCTURA
+*/
+main {
+   padding: 2rem;
+}
+
+aside {
+   background-color: #e2e8f0;
+   padding: 1rem;
+   margin-bottom: 1.5rem;
+   border-radius: 6px;
+}
+
+section {
+   background-color: var(--color-blanco);
+   padding: 1.5rem;
+   margin-bottom: 1.5rem;
+   border-radius: 8px;
+   border-left: 4px solid var(--color-acento);
+}
+
+article {
+   margin-bottom: 1.5rem;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+/* 
+   PIE DE PAGINA (FOOTER)
+*/
+footer {
+   background-color: var(--color-primario);
+   color: var(--color-blanco);
+   padding: 1.5rem 2rem;
+   text-align: center;
+}
+
+footer ul {
+   list-style: none;
+   padding: 0;
+   margin: 0.75rem 0 0 0;
+   display: flex;
+   justify-content: center;
+   gap: 1.25rem;
+}
+
+footer img {
+   width: 24px;
+   height: 24px;
+}
