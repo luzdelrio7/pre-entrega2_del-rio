@@ -101,6 +101,10 @@ section {
    border-left: 4px solid var(--color-acento);
 }
 
+ 
+.tarjeta {
+}
+
 article {
    margin-bottom: 1.5rem;
 }
